@@ -24,10 +24,8 @@ void main() {
   // Calcula a média
   double media = calcularMedia(nota1, nota2, nota3);
 
-  // Exibe o resultado formatado
   print("Média: ${media.toStringAsFixed(2)}");
 
-  // Verifica se foi aprovado ou reprovado
   if (media >= 7) {
     print("Aprovado!");
   } else {
